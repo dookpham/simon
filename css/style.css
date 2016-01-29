@@ -1,0 +1,166 @@
+body{
+  font-family: Futura;
+  background-color: #EBE0C8
+}
+
+#simon-bg{
+  background-color: #222;
+  position: relative;
+  width: 30em;
+  height: 30em;
+  top: 5em;
+  margin: 0 auto;
+  border-radius: 50%
+}
+
+#green-btn, #red-btn, #yellow-btn, #blue-btn{
+  position: absolute;
+  width: 12em;
+  height: 12em;
+}
+
+.green-glow{
+  box-shadow: 0 0 1em 1em #0f0;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.red-glow{
+  box-shadow: 0 0 1em 1em #f99;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.yellow-glow{
+  box-shadow: 0 0 1em 1em #cc0;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.blue-glow{
+  box-shadow: 0 0 1em 1em #55f;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+#green-btn {
+  background-color: green;
+  border-top-left-radius: 100%;
+  top: 2em;
+  left: 2em;
+  
+}
+
+#red-btn {
+  background-color: red;
+  border-top-right-radius: 100%;
+  top: 2em;
+  left: 16em;
+}
+
+#yellow-btn {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+  top: 16em;
+  left: 2em;
+}
+
+#blue-btn {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+  top: 16em;
+  left: 16em;
+}
+
+#center-black-circle{
+  position: absolute;
+  background-color: #222;
+  width: 16em;
+  height: 16em;
+  border-radius: 50%;
+  left: 7em;
+  top: 7em;
+}
+
+#center-white-circle{
+  position: absolute;
+  background-color: #EEE;
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  left: 1em;
+  top: 1em;
+}
+
+#simon-label{
+  font-size: 3.7em;
+  position: absolute;
+  left: 0.5em;
+  top: 0.4em
+}
+
+#count-bg{
+  position: absolute;
+  width: 4.5em;
+  height: 3em;
+  background-color: black;
+  top: 6.5em;
+  left: 1.5em;
+  border-radius: 0.5em;
+}
+
+#start-btn{
+  position: absolute;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: red;
+  top: 7em;
+  left: 7em;
+  border-radius: 50%;
+  border: 0.3em solid black;
+}
+
+#strict-btn{
+  position: absolute;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: yellow;
+  top: 7em;
+  left: 10.5em;
+  border-radius: 50%;
+  border: 0.3em solid black;
+}
+
+#strict-light{
+  position: absolute;
+  width: 0.8em;
+  height: 0.8em;
+  background-color: black;
+  top: 5.7em;
+  left: 10.9em;
+  border-radius: 50%;
+  border: 0.2em solid black;
+}
+
+#count-num{
+  position: absolute;
+  top: 0.1em;
+  left: 0.5em;
+  color: red;
+  font-size: 2em;
+  text-align: center;
+}
+
+#count-label{
+  position: absolute;
+  top: 9.5em;
+  left: 2em;
+}
+
+#start-label{
+  position: absolute;
+  top: 9.5em;
+  left: 6.5em;
+}
+
+#strict-label{
+  position: absolute;
+  top: 9.5em;
+  left: 10em;
+}
